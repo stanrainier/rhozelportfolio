@@ -1,0 +1,247 @@
+<DOCTYPE! html>
+<html>
+<meta charset="utf-8">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+	<script>
+  		AOS.init();
+	</script>
+
+	<script>
+$(document).ready(function() {
+  var stickyTop = $('.skills__title__wrapper').offset().top;
+
+  $(window).scroll(function() {
+    var windowTop = $(window).scrollTop();
+    if (stickyTop < windowTop && $(".skills__section").height() + $(".skills__title").offset().top - $(".skills__title__wrapper").height() > windowTop) {
+      $('.skills__title__wrapper').css('position', 'fixed');
+    } else {
+      $('.skills__title__wrapper').css('position', 'relative');
+    }
+  });
+});
+	</script>
+
+</head>
+<body>
+	<main>
+		<div class="header__section">
+			<div class="header__wrapper">
+				<div class="email__wrapper" data-aos="fade-right" data-aos-duration="3000">
+					<div class="email__circle">
+						<span>arcdc29@icloud.com</span>
+					</div>
+					<div class="email__line">
+						<hr>
+					</div>
+				</div>
+				<div class="header__texts align" data-aos="zoom-out-up" data-aos-duration="2000" data-aos-easing="ease-in-quad">
+					<h1> Hi, I'm <c>Rhozel Del Castillo.</c><br>
+						I am a full-stack web developer
+					</h1>
+					<button class="header__button"> CHECK MY WORK </button>
+				</div>
+			</div>
+		</div>
+		<div class="about__div">
+			<div class="about__div__wrapper">
+				<div class="about__left-div">
+					<hr>
+				</div>
+				<div class="about__div__circle"></div>
+				<h1> ABOUT </h1>
+				<div class="about__div__circle"></div>
+				<div class="about__right-div">
+					<hr>
+				</div>
+			</div>
+		</div>
+		<div class="introduction__section">
+			<div class="introduction__wrapper align">
+				<div class="introduction__texts" data-aos="fade-right" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+					<p>I'm a full-stack developer and a part-time intermediate designer in <c>Bacolod City</c>,PH. I have passion for building applications from scratch and love marketing graphic design since I started in the IT industry.</p>
+				</div>
+				<div class="introduction__icons">
+					<div class="dot_section1">
+						<div data-aos="zoom-in"></div>
+						<div class="dot1" data-aos="zoom-in" data-aos-duration="2000">
+							<h1>CLEAN</h1>
+						</div>
+						<div class="dot2" data-aos="zoom-in" data-aos-duration="3000"">
+							<h1>FAST</h1>
+						</div>
+					</div>
+					<div class="dot_section2">
+						<div class="dot3" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+							<h1>RESPONSIVE</h1>
+						</div>
+						<div class="dot4" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+							<h1>DYNAMIC</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="skills__section">
+			<div class="skills__wrapper">
+				<div class="graph__section">
+					<div class="angular__graph" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point"> <p>90%</p></div>
+					</div>
+					<div class="pct90" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point"> <p>90%</p></div>
+					</div>
+					<div class="pct90" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point"> <p>90%</p></div>
+					</div>
+					<div class="pct90" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point"> <p>90%</p></div>
+					</div>
+					<div class="pct90" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point"> <p>90%</p></div>
+					</div>
+					<div class="pct85" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point85"> <p>85%</p></div>
+					</div>
+					<div class="pct80" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point80"> <p>80%</p></div>
+					</div>
+					<div class="pct80" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point80"> <p>80%</p></div>
+					</div>
+					<div class="pct75" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point75"> <p>75%</p></div>
+					</div>
+					<div class="pct60" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point60"> <p>60%</p></div>
+					</div>
+					<div class="pct50" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point50"> <p>50%</p></div>
+					</div>
+					<div class="pct50" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point50"> <p>50%</p></div>
+					</div>
+					<div class="pct50" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+						<hr><div class="graph__point50"> <p>50%</p></div>
+					</div>					
+				</div>
+				<div class="programming__languages">
+					<h1 data-aos="fade-up">ANGULAR CLI</h1>
+					<h1 data-aos="fade-up">ANGULAR MATERIAL</h1>
+					<h1 data-aos="fade-up">TYPESCRIPT</h1>
+					<h1 data-aos="fade-up">NODE JS / EXPRESS JS</h1>
+					<h1 data-aos="fade-up">MYSQL</h1>
+					<h1 data-aos="fade-up">FIREBASE</h1>
+					<h1 data-aos="fade-up">HTML</h1>
+					<h1 data-aos="fade-up">JAVASCRIPT</h1>
+					<h1 data-aos="fade-up">CSS</h1>
+					<h1 data-aos="fade-up">PHP</h1>
+					<h1 data-aos="fade-up">REACT JS</h1>
+					<h1 data-aos="fade-up">FEATHER JS</h1>
+					<h1 data-aos="fade-up">PYTHON</h1>
+				</div>
+				<div class="skills__title">
+					<div class="skills__title__wrapper" data-aos="zoom-in">
+						<h1>S</h1>
+						<h1>K</h1>
+						<h1>I</h1>
+						<h1>L</h1>
+						<h1>L</h1>
+						<h1>S</h1>
+					</div>
+				</div>
+			</div>
+			<div class="skills__section2" data-aos="fade-up" data-aos-anchor-placement="top-center">
+					<div class="skills__wrapper2 skills__align">
+						<div class="photoshop__circle">
+							<p>Photoshop</p>
+						</div>
+						<div class="msoffice__circle">
+							<p>Microsoft Office</p>
+						</div>
+						<div class="wordpress__circle">
+							<p>Wordpress</p>
+						</div>
+						<div class="coreldraw__circle">
+							<p>Corel Draw</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="projects__div">
+			<div class="projects__div__wrapper">
+				<div class="projects__div__line">
+				<hr>
+				</div>
+				<div class="about__div__circle"></div>
+				<div class="projects__text">
+				<h1>Projects</h1>
+				</div>
+				<div class="about__div__circle"></div>
+				<div class="projects__div__line">
+				<hr>
+				</div>
+			</div>
+		</div>
+		<div class="projects__section">
+			<div class="projects__wrapper align">
+				<div class="display__sec1">
+					<div class="placeholder1" data-aos="zoom-in">
+					</div>
+					<div class="placeholder2" data-aos="zoom-in">
+					</div>
+					<div class="placeholder1" data-aos="zoom-in">
+					</div>
+				</div>
+				<div class="display__sec2">
+					<div class="placeholder2" data-aos="zoom-in" >
+					</div>
+					<div class="placeholder1" data-aos="zoom-in">
+					</div>
+					<div class="placeholder2" data-aos="zoom-in">
+					</div>
+				</div>
+			</div>
+			<div class="checkout__section" data-aos="fade-right">
+				<hr>
+				<button class="checkout"> CHECK OUT FOR MORE! </button>
+			</div>
+
+		</div>
+	</main>
+
+</body>
+</html>
