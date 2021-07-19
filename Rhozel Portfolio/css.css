@@ -18,6 +18,16 @@ body, html {
     margin: 0;
 }
 
+portfolio{
+    display: none;
+     margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #161e2b;
+    font-family: Poppins;
+    color: #d79e8a;
+}
+
 .align{
 	width: 90%;
 	display: flex;
@@ -28,6 +38,7 @@ body, html {
 .mobile{
     display: none;
 }
+
 /*========*/
 
 .header__section{
