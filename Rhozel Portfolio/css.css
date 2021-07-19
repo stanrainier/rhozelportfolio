@@ -25,6 +25,9 @@ body, html {
     justify-content: center;
     margin: 0 auto;
 }
+.mobile{
+    display: none;
+}
 /*========*/
 
 .header__section{
@@ -651,4 +654,413 @@ color: #161e2b;
     background-color: #161e2b;
     color:#d79e8a;
     border-color: #d79e8a;
+}
+
+/*======================*/
+
+@media only screen and (max-width: 1024px) {
+
+.hide__mobile{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+/*===============*/
+
+
+
+.email__circle{
+    width: 30%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.header__texts{
+    font-size: 25px;
+}
+/*================*/
+.about__div__circle {
+    width: 35%;
+    background-color: #d79e8a;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 25px;
+    height: 5px;
+}
+.about__div h1 {
+    color: #ee3471;
+    font-size: 50px;
+    margin: auto 100px;
+}
+.about__right-div hr {
+
+    margin-top: 13%;
+}
+
+.introduction__wrapper {
+    flex-direction: column;
+}
+
+.introduction__texts {
+    text-align: center;
+}
+.introduction__icons {
+    flex-direction: column;
+    margin: 100px 0px;
+}
+/*===========*/
+
+.introduction__texts{
+    padding: 0px;
+
+}
+
+.angular__graph hr {
+    width: 130px;
+}
+
+
+
+.skills__mobile{
+    font-size: 55px;
+    color: #ee3471;
+    text-align: center;
+}
+
+
+.display__sec1 {
+    display: flex;
+    flex-direction: column;
+}
+.display__sec2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout{
+    width: 60%;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.hide__mobile{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+/*===============*/
+
+.email__wrapper{
+    padding-left: 30px;
+}
+
+
+.header__texts {
+    font-size: 20px;
+}
+
+.header__button{
+    font-size: 25px;
+}
+/*==============*/
+
+.about__div h1 {
+    font-size: 35px;
+    margin: auto 80px;
+}
+.about__left-div hr {
+
+    margin-top: 17%;
+}
+.about__div__circle {
+    width: 80%;
+    background-color: #d79e8a;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 20px;
+    height: 0px;
+}
+
+
+/*===================*/
+.programming__languages h1 {
+    font-size: 48px;
+    margin: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================*/
+.skills__wrapper2 {
+    flex-direction: column;
+}
+.photoshop__circle {   
+    width: 100%;
+    margin: 20px;
+}
+
+.msoffice__circle {
+    width: 100%;
+    margin: 20px;
+}
+
+.wordpress__circle{
+    width: 100%;
+    margin: 20px;
+}
+
+.coreldraw__circle{
+    width: 100%;
+    margin: 20px;
+}
+
+.checkout{
+
+    font-size: 25px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+.hide__mobile{
+    display: none;
+}
+
+.hide__mobile__425{
+    display: none;
+
+}
+
+.mobile{
+    display: block;
+}
+/*========================*/
+.email__circle {
+    width: 60%;
+}
+
+.header__texts {
+    font-size: 15px;
+}
+.header__texts h1 {
+    margin: 85px 0px;
+}
+
+/*====================*/
+
+.about__div h1 {
+    margin: auto 30px;
+}
+
+.about__div__circle {
+    width: 0px;
+}
+.about__left-div hr {
+    margin-top: 22%;
+}
+.about__right-div hr {
+    margin-top: 22%;
+}
+
+/*======================*/
+.introduction__wrapper {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.introduction__texts {
+    font-size: 21px;
+}
+.dot_section1 {
+    margin-left: 12%;
+}
+.dot1 {
+    margin: 0px 15px 0 0;
+}
+.dot3 {
+    padding: 0px;
+    margin: -32px -10px 0 0;
+}
+.dot4 {
+     padding: 0px; 
+}
+/*======================*/
+.graph__section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.skills__wrapper p {
+    font-size: 15px;
+    margin: -11px auto;
+}
+.programming__languages {
+    font-weight: normal;
+    margin-left: 0px;
+}
+.programming__languages h1 {
+    font-size: 20px;
+    margin: 15px 10px;
+}
+/*-------------------------*/
+.pct90 {
+    margin-top: 15px;
+}
+.pct85 {
+    margin-top: 14px;
+}
+.pct80 {
+    margin-top: 16px;
+}
+.pct75 {
+    margin-top: 14px;
+}
+.pct60 {
+    margin-top: 15px;
+}
+.pct50 {
+    margin-top: 14px;
+}
+/*---------------------*/
+.graph__point {
+    height: 0px;
+    width: 25px;
+}
+.graph__point85 {
+    height: 0px;
+    width: 25px;
+}
+.graph__point80 {
+    height: 0px;
+    width: 25px;
+}
+.graph__point75 {
+    height: 0px;
+    width: 25px;
+}
+.graph__point60 {
+    height: 0px;
+    width: 25px;
+}
+.graph__point50 {
+    height: 0px;
+    width: 25px;
+}
+/*------------------------*/
+.angular__graph hr {
+    width: 75px;
+    margin-top: 15px;
+}
+.pct90 hr {
+    margin-top: 14px;
+}
+.pct85 hr {
+    margin-top: 14px;
+}
+.pct80 hr {
+    margin-top: 14px;
+}
+.pct75 hr {
+    margin-top: 14px;
+}
+.pct60 hr {
+    margin-top: 14px;
+}
+.pct50 hr {
+    margin-top: 14px;
+}
+/*================*/
+.projects__text {
+    margin: auto 50px;
+}
+.skills__section2 p {
+    font-size: 15px;
+}
+
+/*==========*/
+.checkout__section hr {
+
+    margin-top: 5%;
+}
+.checkout {
+    margin-right: 3%;
+    font-size: 14px
+}
+
+@media only screen and (max-width: 375px) {
+
+.email__circle {
+    height: 20px;
+    width: 20%;
+    background-color: #ee3471;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+    margin: auto 20px;
+    position: absolute;
+}
+.email__circle {
+    width: 65%;
+    font-size: 15px;
+    padding: 10px;
+}
+.header__texts {
+    font-size: 10px;
+}
+
+.header__button {
+    font-size: 15px;
+}
+
+/*==========*/
+.about__div h1 {
+    font-size: 25px;
+}
+
+.introduction__texts {
+    font-size: 15px;
+}
+
+/*=================*/
+
+.photoshop__circle {
+    width: 70%;
+}
+.msoffice__circle {
+    width: 70%;
+}
+.wordpress__circle {
+    width: 70%;
+}
+.coreldraw__circle {
+    width: 70%;
+}
+
 }
