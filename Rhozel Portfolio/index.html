@@ -20,6 +20,35 @@
 	</script>
 
 	<script>
+		$(document).ready(function(){
+		  $(".header__button").click(function(){
+		    $("main").hide();
+		  });
+		  $(".header__button").click(function(){
+		    $("portfolio").show("slow");
+		  });
+		});
+	</script>
+	<script>
+		$(document).ready(function(){
+		  $(".checkout").click(function(){
+		    $("main").hide();
+		  });
+		  $(".checkout").click(function(){
+		    $("portfolio").show("slow");
+		  });
+		});
+	</script>
+
+	<script>
+		$(".header__button").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".projects__div__wrapper").offset().top
+    }, 2000);
+});
+	</script>
+
+	<script>
 $(document).ready(function() {
   var stickyTop = $('.skills__title__wrapper').offset().top;
 
@@ -248,5 +277,29 @@ $(document).ready(function() {
 
 		</div>
 	</main>
+	<portfolio>
+	<div class="projects__section">
+			<div class="projects__wrapper align">
+				<div class="display__sec1">
+					<div class="placeholder1" data-aos="zoom-in">
+					</div>
+					<div class="placeholder2" data-aos="zoom-in">
+					</div>
+					<div class="placeholder1" data-aos="zoom-in">
+					</div>
+				</div>
+				<div class="display__sec2">
+					<div class="placeholder2" data-aos="zoom-in" >
+					</div>
+					<div class="placeholder1" data-aos="zoom-in">
+					</div>
+					<div class="placeholder2" data-aos="zoom-in">
+					</div>
+				</div>
+			</div>
+		</div>
+	</portfolio>
+
+
 </body>
 </html>
