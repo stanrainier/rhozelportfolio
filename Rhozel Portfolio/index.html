@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -18,7 +18,7 @@
 	<script>
   		AOS.init();
 	</script>
-
+<!-- 
 	<script>
 		$(document).ready(function(){
 		  $(".header__button").click(function(){
@@ -28,14 +28,34 @@
 		    $("portfolio").show("slow");
 		  });
 		});
-	</script>
-	<script>
+	</script> -->
+
+<!-- 	<script>
+		$(".header__button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".second").offset().top},
+        'slow');
+	});
+	</script> -->
+
+<!-- 	<script>
 		$(document).ready(function(){
 		  $(".checkout").click(function(){
 		    $("main").hide();
 		  });
 		  $(".checkout").click(function(){
 		    $("portfolio").show("slow");
+		  });
+		});
+	</script> -->
+
+<!-- 	<script>
+		$(document).ready(function(){
+		  $(".back__btn").click(function(){
+		    $("portfolio").hide();
+		  });
+		  $(".back__btn").click(function(){
+		    $("main").show("slow");
 		  });
 		});
 	</script>
@@ -61,7 +81,7 @@ $(document).ready(function() {
     }
   });
 });
-	</script>
+	</script> -->
 
 </head>
 <body>
@@ -80,7 +100,7 @@ $(document).ready(function() {
 					<h1> Hi, I'm <c>Rhozel Del Castillo.</c><br>
 						I am a full-stack web developer
 					</h1>
-					<button class="header__button"> CHECK MY WORK </button>
+					<button class="header__button"><a href="portfolio.html"> CHECK MY WORK </a> </button>
 				</div>
 			</div>
 		</div>
@@ -255,51 +275,33 @@ $(document).ready(function() {
 			<div class="projects__wrapper align">
 				<div class="display__sec1">
 					<div class="placeholder1" data-aos="zoom-in">
+						<img src="205187863_837822960438231_4811572937248068820_n.jpg">
 					</div>
 					<div class="placeholder2" data-aos="zoom-in">
+						<img src="206810119_336372724598357_6238914639871437573_n.jpg">
 					</div>
 					<div class="placeholder1" data-aos="zoom-in">
+						<img src="206810119_336372724598357_6238914639871437573_n.jpg">
 					</div>
 				</div>
 				<div class="display__sec2">
 					<div class="placeholder2" data-aos="zoom-in" >
+						<img src="212432086_176627231114127_1016606382433491654_n.jpg">
 					</div>
 					<div class="placeholder1" data-aos="zoom-in">
+						<img src="213513905_2934489603462721_3927669583841663962_n.jpg">
 					</div>
 					<div class="placeholder2" data-aos="zoom-in">
+						<img src="214231562_3056658471322516_7569731549136813400_n.jpg">
 					</div>
 				</div>
 			</div>
 			<div class="checkout__section" data-aos="fade-right">
 				<hr>
-				<button class="checkout"> CHECK OUT FOR MORE! </button>
+				<button class="checkout"> <a href="portfolio.html">CHECK OUT FOR MORE! </a></button>
 			</div>
 
 		</div>
 	</main>
-	<portfolio>
-	<div class="projects__section">
-			<div class="projects__wrapper align">
-				<div class="display__sec1">
-					<div class="placeholder1" data-aos="zoom-in">
-					</div>
-					<div class="placeholder2" data-aos="zoom-in">
-					</div>
-					<div class="placeholder1" data-aos="zoom-in">
-					</div>
-				</div>
-				<div class="display__sec2">
-					<div class="placeholder2" data-aos="zoom-in" >
-					</div>
-					<div class="placeholder1" data-aos="zoom-in">
-					</div>
-					<div class="placeholder2" data-aos="zoom-in">
-					</div>
-				</div>
-			</div>
-		</div>
-	</portfolio>
-
-
 </body>
 </html>
